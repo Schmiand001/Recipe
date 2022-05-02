@@ -1,0 +1,69 @@
+.wow {
+  width: 100px;
+}
+
+img {
+  height: 75%;
+  width: 75%;
+  object-fit: contain;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+Body 
+h1 {
+  font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+  
+  background-color: red;
+}
+
+h2, h3 {
+  background-color: green;
+}
+figcaption {
+  color: blue;
+}
+
+ul {
+  font-style: italic;
+  font-size: 18px;
+}
+
+ol {
+  font-size: 18px
+}
+
+form {
+  color: orange;
+}
+legend {
+  font-weight: bold;
+}
+
+/* Box layout starts here */
+
+* {
+  box-sizing: border box;
+}
+
+[class*="cols"] {
+      float: left;
+    /* padding: 15px; */
+    }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block; 
+}
+
+/* testing */
+
+
+
+
+
