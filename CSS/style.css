@@ -43,3 +43,27 @@ form {
 legend {
   font-weight: bold;
 }
+
+/* Box layout starts here */
+
+* {
+  box-sizing: border box;
+}
+
+[class*="cols"] {
+      float: left;
+    /* padding: 15px; */
+    }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block; 
+}
+
+/* testing */
+
+
+
+
+
